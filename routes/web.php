@@ -24,3 +24,6 @@ Route::prefix('categories')->group(function (){
     Route::get('/{id}/edit','CategoryController@showFormEdit')->name('categories.showFormEdit');
     Route::post('/{id}/edit','CategoryController@edit')->name('categories.edit');
 });
+Route::prefix('products')->group(function (){
+    Route::get('/','ProductController@getAll')->name('products.list');
+});
