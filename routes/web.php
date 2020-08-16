@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::prefix('categories')->group(function (){
+    Route::get('/','CategoryController@getAll')->name('categories.list');
+});
