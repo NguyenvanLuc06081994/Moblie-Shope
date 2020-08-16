@@ -29,9 +29,9 @@
                         <td>{{$product->quantity}}</td>
                         <td>{{$product->description}}</td>
                         <td>{{$product->category->name}}</td>
-                        <td><a href="" class="btn btn-primary"><i
+                        <td><a href="{{route('products.showFormEdit',$product->id)}}" class="btn btn-primary"><i
                                     class="fas fa-edit"></i></a></td>
-                        <td><a href="" class="btn btn-primary"
+                        <td><a href="{{route('products.delete',$product->id)}}" class="btn btn-danger"
                                onclick="return confirm('are you sure?')"><i class="far fa-trash-alt"></i></a></td>
                     </tr>
                 @empty

@@ -28,4 +28,7 @@ Route::prefix('products')->group(function (){
     Route::get('/','ProductController@getAll')->name('products.list');
     Route::get('/add','ProductController@showFormAdd')->name('products.showFormAdd');
     Route::post('/add','ProductController@addProduct')->name('products.addProduct');
+    Route::get('/{id}/edit','ProductController@showFormEdit')->name('products.showFormEdit');
+    Route::post('/{id}/edit','ProductController@edit')->name('products.edit');
+    Route::get('/{id}/delete','ProductController@delete')->name('products.delete');
 });
