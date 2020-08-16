@@ -24,4 +24,9 @@ class CategoryRepository
     {
         $category->save();
     }
+
+    public function findCategoryById($id)
+    {
+        return $this->category->findOrFail($id);
+    }
 }

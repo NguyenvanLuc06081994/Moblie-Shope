@@ -17,7 +17,7 @@ class CategoryController extends Controller
     public function getAll()
     {
         $categories = $this->categoryService->getAll();
-        return view('category.list',compact('categories'));
+        return view('category.list', compact('categories'));
     }
 
     public function showFormAdd()
@@ -28,6 +28,18 @@ class CategoryController extends Controller
     public function addCategory(Request $request)
     {
         $this->categoryService->addCategory($request);
+        return redirect()->route('categories.list');
+    }
+
+    public function showFormEdit($id)
+    {
+        $category = $this->categoryService->findCategoryById($id);
+        return view('category.edit', compact('category'));
+    }
+
+    public function edit(Request $request, $id)
+    {
+        $this->categoryService->edit($request, $id);
         return redirect()->route('categories.list');
     }
 }

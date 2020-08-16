@@ -28,4 +28,17 @@ class CategoryService
         $category->vendor = $request->vendor;
         $this->categoryRepository->save($category);
     }
+
+    public function findCategoryById($id)
+    {
+        return $this->categoryRepository->findCategoryById($id);
+    }
+
+    public function edit($request, $id)
+    {
+        $category = $this->categoryRepository->findCategoryById($id);
+        $category->name = $request->name;
+        $category->vendor = $request->vendor;
+        $this->categoryRepository->save($category);
+    }
 }
