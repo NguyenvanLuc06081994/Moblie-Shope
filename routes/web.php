@@ -32,3 +32,6 @@ Route::prefix('products')->group(function (){
     Route::post('/{id}/edit','ProductController@edit')->name('products.edit');
     Route::get('/{id}/delete','ProductController@delete')->name('products.delete');
 });
+Route::prefix('customers')->group(function (){
+    Route::get('/','CustomerController@getAll')->name('customers.list');
+});
