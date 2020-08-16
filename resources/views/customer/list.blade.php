@@ -1,8 +1,7 @@
 @extends('menu.master')
 @section('title','List Customer')
 @section('content')
-    <a href="" class="btn btn-primary mt-3 mb-3">ADD NEW CUSTOMER</a>
-    <table class="table">
+    <table class="table table-hover">
         <thead class="thead-dark">
         <tr>
             <th scope="col">STT</th>

@@ -34,4 +34,6 @@ Route::prefix('products')->group(function (){
 });
 Route::prefix('customers')->group(function (){
     Route::get('/','CustomerController@getAll')->name('customers.list');
+    Route::get('/{id}/edit','CustomerController@showFormEdit')->name('customers.showFormEdit');
+    Route::post('/{id}/edit','CustomerController@edit')->name('customers.edit');
 });

@@ -19,4 +19,16 @@ class CustomerController extends Controller
         $customers = $this->customerService->getAll();
         return view('customer.list',compact('customers'));
     }
+
+    public function showFormEdit($id)
+    {
+        $customer = $this->customerService->findCustomerById($id);
+        return view('customer.edit',compact('customer'));
+    }
+
+    public function edit(Request $request, $id)
+    {
+        $this->customerService->edit($request, $id);
+        return redirect()->route('customers.list');
+    }
 }
