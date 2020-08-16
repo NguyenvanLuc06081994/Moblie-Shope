@@ -26,4 +26,6 @@ Route::prefix('categories')->group(function (){
 });
 Route::prefix('products')->group(function (){
     Route::get('/','ProductController@getAll')->name('products.list');
+    Route::get('/add','ProductController@showFormAdd')->name('products.showFormAdd');
+    Route::post('/add','ProductController@addProduct')->name('products.addProduct');
 });
