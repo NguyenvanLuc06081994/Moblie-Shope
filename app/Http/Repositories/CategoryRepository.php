@@ -19,4 +19,9 @@ class CategoryRepository
     {
         return $this->category->all();
     }
+
+    public function save($category)
+    {
+        $category->save();
+    }
 }

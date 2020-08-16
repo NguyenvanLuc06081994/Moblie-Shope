@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Route::prefix('categories')->group(function (){
     Route::get('/','CategoryController@getAll')->name('categories.list');
+    Route::get('/add','CategoryController@showFormAdd')->name('categories.ShowFormAdd');
+    Route::post('/add','CategoryController@addCategory')->name('categories.addCategory');
 });

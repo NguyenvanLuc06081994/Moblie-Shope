@@ -19,4 +19,15 @@ class CategoryController extends Controller
         $categories = $this->categoryService->getAll();
         return view('category.list',compact('categories'));
     }
+
+    public function showFormAdd()
+    {
+        return view('category.add');
+    }
+
+    public function addCategory(Request $request)
+    {
+        $this->categoryService->addCategory($request);
+        return redirect()->route('categories.list');
+    }
 }
