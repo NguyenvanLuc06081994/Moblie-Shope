@@ -24,6 +24,13 @@ class ProductController extends Controller
         return view('product.list', compact('products'));
     }
 
+    public function getAllFont()
+    {
+        $products = $this->productService->getAll();
+        $categories = $this->categoryService->getAll();
+        return view('shop.listProducts',compact('products','categories'));
+    }
+
     public function showFormAdd()
     {
         $categories = $this->categoryService->getAll();

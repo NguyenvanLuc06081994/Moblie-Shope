@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','ProductController@getAllFont')->name('shop.list');
+Route::get('/{id}/add-to-cart','CartController@addToCart')->name('carts.addToCart');
+Route::get('/list-cart','CartController@getAll')->name('carts.list');
 
 Route::prefix('categories')->group(function (){
     Route::get('/','CategoryController@getAll')->name('categories.list');
@@ -37,3 +37,4 @@ Route::prefix('customers')->group(function (){
     Route::get('/{id}/edit','CustomerController@showFormEdit')->name('customers.showFormEdit');
     Route::post('/{id}/edit','CustomerController@edit')->name('customers.edit');
 });
+

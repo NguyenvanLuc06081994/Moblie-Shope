@@ -1528,7 +1528,7 @@ function getAlpha(string) {
 // generators
 function hexString(rgba, a) {
    var a = (a !== undefined && rgba.length === 3) ? a : rgba[3];
-   return "#" + hexDouble(rgba[0]) 
+   return "#" + hexDouble(rgba[0])
               + hexDouble(rgba[1])
               + hexDouble(rgba[2])
               + (
@@ -2990,9 +2990,9 @@ var core_defaults = defaults;
 var valueOrDefault = helpers_core.valueOrDefault;
 
 /**
- * Converts the given font object into a CSS font string.
- * @param {object} font - A font object.
- * @return {string} The CSS font string. See https://developer.mozilla.org/en-US/docs/Web/CSS/font
+ * Converts the given fontEnd object into a CSS fontEnd string.
+ * @param {object} font - A fontEnd object.
+ * @return {string} The CSS fontEnd string. See https://developer.mozilla.org/en-US/docs/Web/CSS/font
  * @private
  */
 function toFontString(font) {
@@ -3012,9 +3012,9 @@ function toFontString(font) {
  */
 var helpers_options = {
 	/**
-	 * Converts the given line height `value` in pixels for a specific font `size`.
+	 * Converts the given line height `value` in pixels for a specific fontEnd `size`.
 	 * @param {number|string} value - The lineHeight to parse (eg. 1.6, '14px', '75%', '1.6em').
-	 * @param {number} size - The font size (in pixels) used to resolve relative `value`.
+	 * @param {number} size - The fontEnd size (in pixels) used to resolve relative `value`.
 	 * @returns {number} The effective line height in pixels (size * 1.2 if value is invalid).
 	 * @see https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 	 * @since 2.7.0
@@ -3068,10 +3068,10 @@ var helpers_options = {
 	},
 
 	/**
-	 * Parses font options and returns the font object.
-	 * @param {object} options - A object that contains font options to be parsed.
-	 * @return {object} The font object.
-	 * @todo Support font.* options and renamed to toFont().
+	 * Parses fontEnd options and returns the fontEnd object.
+	 * @param {object} options - A object that contains fontEnd options to be parsed.
+	 * @return {object} The fontEnd object.
+	 * @todo Support fontEnd.* options and renamed to toFont().
 	 * @private
 	 */
 	_parseFont: function(options) {
@@ -11779,7 +11779,7 @@ var Scale = core_element.extend({
 				var paddingLeft, paddingRight;
 
 				// Ensure that our ticks are always inside the canvas. When rotated, ticks are right aligned
-				// which means that the right padding is dominated by the font height
+				// which means that the right padding is dominated by the fontEnd height
 				if (isRotated) {
 					paddingLeft = isBottom ?
 						cosRotation * firstLabelSize.width + sinRotation * firstLabelSize.offset :
@@ -12388,7 +12388,7 @@ var Scale = core_element.extend({
 			item = items[i];
 			tickFont = item.font;
 
-			// Make sure we draw text in the correct color and font
+			// Make sure we draw text in the correct color and fontEnd
 			ctx.save();
 			ctx.translate(item.x, item.y);
 			ctx.rotate(item.rotation);
@@ -13409,7 +13409,7 @@ var defaultConfig$3 = {
 		// Boolean - if true, show point labels
 		display: true,
 
-		// Number - Point label font size in pixels
+		// Number - Point label fontEnd size in pixels
 		fontSize: 10,
 
 		// Function - Used to convert point labels
@@ -13776,7 +13776,7 @@ var scale_radialLinear = scale_linearbase.extend({
 			return NaN;
 		}
 
-		// Take into account half font size + the yPadding of the top value
+		// Take into account half fontEnd size + the yPadding of the top value
 		var scalingFactor = me.drawingArea / (me.max - me.min);
 		if (me.options.ticks.reverse) {
 			return (me.max - value) * scalingFactor;
@@ -15216,7 +15216,7 @@ core_defaults._set('global', {
 /**
  * Helper function to get the box width based on the usePointStyle option
  * @param {object} labelopts - the label options on the legend
- * @param {number} fontSize - the label font size
+ * @param {number} fontSize - the label fontEnd size
  * @return {number} width of the color box area
  */
 function getBoxWidth(labelOpts, fontSize) {

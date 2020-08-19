@@ -2,7 +2,7 @@
 @section('title',"Product List")
 @section('content')
     <div class="container">
-        <a href="{{route('products.showFormAdd')}}}" class="btn btn-primary mt-3 mb-3">ADD NEW PRODUCT</a>
+        <a href="{{route('products.showFormAdd')}}" class="btn btn-primary mt-3 mb-3">ADD NEW PRODUCT</a>
         <div>
             <table class="table table-hover">
                 <thead class="thead-dark">
