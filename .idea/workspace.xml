@@ -20,176 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31797a6a-86ed-4af9-a217-3640334dc7f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/Magnific-Popup-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/OwlCarousel2-2.3.4.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/SlickNav-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/barfiller-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/bootstrap-4.2.1-dist.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/font-awesome-4.7.0.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/Source/jQuery.countdown-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/elegant-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/slicknav.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/ElegantIcons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/ElegantIcons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/ElegantIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/ElegantIcons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/banner/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/banner/banner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/banner/banner-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/blog-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/details/blog-details.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/details/comment-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/details/comment-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/details/comment-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/sidebar/fp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/sidebar/fp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/blog/sidebar/fp-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/categories/category-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/categories/category-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/categories/category-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/categories/category-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/categories/category-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/discount.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/instagram/insta-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/instagram/insta-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/instagram/insta-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/instagram/insta-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/instagram/insta-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/instagram/insta-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/payment/payment-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/payment/payment-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/payment/payment-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/payment/payment-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/payment/payment-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/product-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/product-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/product-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/product-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/details/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/product-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/related/rp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/related/rp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/related/rp-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/product/related/rp-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop-cart/cp-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop-cart/cp-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop-cart/cp-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop-cart/cp-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/shop/shop-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/bs-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/bs-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/bs-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/f-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/f-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/f-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/ht-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/ht-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/img/trend/ht-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/jquery.countdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/jquery.nicescroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/jquery.slicknav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/mixitup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_blog-details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_blog-sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_checkout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_home-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_product-details.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_product.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_shop-cart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_shop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/_variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fontEnd/sass/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cart/cart-products.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cart/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cart/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/masterFont/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/shop/listProducts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mobile-Shope.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mobile-Shope.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/demo/chart-area-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/demo/chart-bar-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/demo/chart-bar-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/demo/chart-pie-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/demo/chart-pie-demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/chart.js/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/chart.js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/chart.js/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/all.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/conflict-detection.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/conflict-detection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/conflict-detection.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/conflict-detection.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/fontawesome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/fontawesome.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/js/fontawesome.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/less/_larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/less/_larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/metadata/categories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/metadata/categories.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/metadata/icons.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/metadata/shims.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/metadata/shims.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/fontawesome-free/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/product/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/product/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_16_142847_create_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_16_142901_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_16_142909_create_customers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_17_043929_create_bills_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/menu/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +166,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CRUD-AJAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C0520G1-demo-laravel" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -361,6 +202,8 @@
       <workItem from="1597825655726" duration="838000" />
       <workItem from="1597829807498" duration="3182000" />
       <workItem from="1597850062791" duration="181000" />
+      <workItem from="1597854797698" duration="115000" />
+      <workItem from="1597857849489" duration="7827000" />
     </task>
     <servers />
   </component>
@@ -384,18 +227,22 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="693" y="281" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597604400537" />
-    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1597850102138">
+    <state x="743" y="451" width="424" height="142" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1597865488187">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1597850102138" />
+    <state x="743" y="451" width="424" height="142" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1920.1046@0.0.1920.1046" timestamp="1597865488187" />
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1597859765212">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1597859765212" />
     <state x="670" y="242" width="569" height="559" key="NewPhpClassDialog" timestamp="1597605040458">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="670" y="242" width="569" height="559" key="NewPhpClassDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597605040458" />
-    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1597740796924">
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1597859751793">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597740796924" />
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597859751793" />
     <state x="624" y="239" key="run.anything.popup" timestamp="1597825851508">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
