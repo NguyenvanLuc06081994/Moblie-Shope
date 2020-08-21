@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','ProductController@getAllFont')->name('shop.list');
+Route::get('/{id}/detail','ProductController@detail')->name('products.detail');
 Route::get('/{id}/add-to-cart','CartController@addToCart')->name('carts.addToCart');
 Route::get('/list-cart','CartController@getAll')->name('carts.list');
+Route::get('/check-out','CartController@showFormCheckout')->name('carts.checkout');
+Route::post('/payment','CartController@payment')->name('carts.payment');
+Route::get('/{id}/deleteProduct','CartController@deleteProduct')->name('carts.deleteProduct');
 
 Route::get('FormRegister','AuthController@showFormRegister')->name('auth.showFormRegister');
 Route::post('FormRegister','AuthController@register')->name('auth.register');

@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Services\CategoryService;
 use App\Http\Services\ProductService;
-//use Illuminate\Auth\Access\Gate;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;
 
@@ -30,7 +29,7 @@ class ProductController extends Controller
     {
         $products = $this->productService->getAll();
         $categories = $this->categoryService->getAll();
-        return view('shop.listProducts',compact('products','categories'));
+        return view('shop.index',compact('products','categories'));
     }
 
     public function showFormAdd()
@@ -56,9 +55,6 @@ class ProductController extends Controller
         if(!Gate::allows('crud') || !Gate::allows('update')){
             abort(403);
         }
-//        if(!Gate::allows('update')){
-//            abort(403);
-//        }
         $product = $this->productService->findProductById($id);
         $categories = $this->categoryService->getAll();
         return view('product.edit', compact('categories', 'product'));
@@ -80,6 +76,12 @@ class ProductController extends Controller
         }
         $this->productService->delete($id);
         return redirect()->route('products.list');
+    }
+
+    public function detail($id)
+    {
+        $product = $this->productService->findProductById($id);
+        return view('shop.product',compact('product'));
     }
 
 }

@@ -22,7 +22,7 @@
                 @forelse($products as $key => $product)
                     <tr>
                         <th scope="row">{{++$key}}</th>
-                            <td><img src="{{asset('storage/'.$product->image)}}" alt="" style="width: 75px; height: 75px">
+                            <td><img src="{{asset('backEnd/storage/'.$product->image)}}" alt="" style="width: 75px; height: 75px">
                         </td>
                         <td>{{$product->name}}</td>
                         <td>{{number_format($product->price)}} VND</td>
