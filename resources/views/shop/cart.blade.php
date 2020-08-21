@@ -125,7 +125,7 @@
 				<div class="col">
 
 					<!-- Cart Item -->
-                    @if(\Illuminate\Support\Facades\Session::get('Cart') != null)
+                    @if(\Illuminate\Support\Facades\Session::get('Cart')   != null)
                     @foreach(\Illuminate\Support\Facades\Session::get('Cart')->products as $product)
 					<div class="cart_item d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
 						<!-- Name -->
