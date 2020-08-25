@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Bill;
 use App\Cart;
+use App\Category;
 use App\Customer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -23,24 +24,33 @@ class CartController extends Controller
             $newCart = new Cart($oldCart);
             $newCart->addCart($product, $id);
             Session::put('Cart', $newCart);
-//            toastr()->success('Thêm sản phẩm vào giỏ hàng thành công', 'Success');
-            return redirect()->route('shop.list');
+            $data = [
+                'productUpdate' => Session::get('Cart')->products[$id],
+
+                'totalPriceCart' => Session::get('Cart')->totalPrice,
+
+                'totalQuantity'=>Session::get('Cart')->totalQuantity
+            ];
+
+            return response()->json($data);
         }
     }
 
     public function getAll()
     {
-        return view('shop.cart');
+        $categories = Category::all();
+        return view('shop.cart',compact('categories'));
     }
 
     public function showFormCheckout()
     {
-        return view('shop.checkout');
+        $categories = Category::all();
+        return view('shop.checkout',compact('categories'));
     }
 
     public function payment(Request $request)
     {
-        $customer= new Customer();
+        $customer = new Customer();
         $customer->name = $request->name;
         $customer->phone = $request->phone;
         $customer->email = $request->email;
@@ -52,9 +62,11 @@ class CartController extends Controller
         $bill->dateBuy = $request->dateBuy;
         $bill->customer_id = $customer->id;
         $bill->save();
-        foreach (Session::get('Cart')->products as $product){
-            $bill->products()->sync($product['productInfo']->id);
+        $productId = [];
+        foreach (Session::get('Cart')->products as $product) {
+            array_push($productId,$product['productInfo']->id);
         }
+        $bill->products()->sync($productId);
         Session::forget('Cart');
         return redirect()->route('shop.list');
     }
@@ -64,12 +76,43 @@ class CartController extends Controller
         $oldCart = Session::get('Cart');
         $newCart = new Cart($oldCart);
         $newCart->deleteProduct($id);
+        if (count($newCart->products) > 0) {
+            Session::put('Cart', $newCart);
+            $data = [
+                'totalPriceCart' => Session::get('Cart')->totalPrice,
 
-        if (count($newCart->products)>0){
-            Session::put('Cart',$newCart);
-        }else{
+                'totalQuantity'=>Session::get('Cart')->totalQuantity
+            ];
+
+            return response()->json($data);
+        } else {
             Session::forget('Cart');
         }
-        return back();
+
+
+
+    }
+
+    public function updateCart(Request $request, $id)
+    {
+        $quantity = $request->quantity;
+        $oldCart = Session::get('Cart');
+        $newCart = new Cart($oldCart);
+        $newCart->updateCart($id,$quantity);
+        Session::put('Cart', $newCart);
+        $data = [
+            'productUpdate' => Session::get('Cart')->products[$id],
+
+            'totalPriceCart' => Session::get('Cart')->totalPrice,
+
+            'totalQuantity'=>Session::get('Cart')->totalQuantity
+        ];
+
+        return response()->json($data);
+    }
+
+    public function clearCart()
+    {
+        Session::forget('Cart');
     }
 }

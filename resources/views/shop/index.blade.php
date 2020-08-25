@@ -231,13 +231,13 @@
 
                         <!-- Product -->
                         @foreach($products as $product)
-                            <div class="product">
+                            <div class="product text-center">
                                 <div class="product_image"><img src="{{asset('backEnd/storage').'/'.$product->image}}" alt=""></div>
                                 <div class="product_extra product_new"><a href="categories.html">New</a></div>
                                 <div class="product_content">
                                     <div class="product_title"><a href="{{route('products.detail',$product->id)}}">{{$product->name}}</a></div>
-                                    <div class="product_price">{{number_format($product->price)}} VND</div>
-                                    <div class="form-control"><a href="{{route('carts.addToCart',$product->id)}}">ADD TO CART</a></div>
+                                    <div class="product_price mb-2 mt-3">{{number_format($product->price)}} VND</div>
+                                    <div class="mt-3"><a href="javascript:" class="btn btn-primary add-to-cart" data-id="{{$product->id}}">ADD TO CART</a></div>
                                 </div>
                             </div>
                     @endforeach
@@ -347,7 +347,17 @@
     <!-- Footer -->
 @include('masterFont.footer')
 </div>
+<!-- JavaScript -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
+<!-- CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+<!-- Default theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+<!-- Semantic UI theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+<!-- Bootstrap theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
@@ -362,7 +372,29 @@
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
 <script>
+    $(document).ready(function () {
+        let origin  = location.origin;
+        $('.add-to-cart').click(function () {
+            let id = $(this).attr('data-id');
+            console.log(id);
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
 
+            $.ajax({
+                url: origin +'/' + id + '/add-to-cart',
+                method: 'GET',
+                success: function (result) {
+                    // alertify.success('Success! Add To Cart');
+                    $('#total-quantity').html(result.totalQuantity)
+                    alertify.success('add product success');
+                }
+            })
+
+        })
+    })
 </script>
 {{--@jquery--}}
 {{--@toastr_js--}}

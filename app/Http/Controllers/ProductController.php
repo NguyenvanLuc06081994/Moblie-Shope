@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Services\CategoryService;
 use App\Http\Services\ProductService;
+use App\Product;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Http\Request;
 
@@ -82,6 +83,19 @@ class ProductController extends Controller
     {
         $product = $this->productService->findProductById($id);
         return view('shop.product',compact('product'));
+    }
+
+    public function getCategoriesToHeader()
+    {
+        $categories = $this->categoryService->getAll();
+        return view('masterFont.header', compact('categories'));
+    }
+
+    public function getProductsByCategory($id)
+    {
+        $categories = $this->categoryService->getAll();
+        $products = Product::where('category_id',$id)->get();
+        return view('shop.index',compact('products','categories'));
     }
 
 }

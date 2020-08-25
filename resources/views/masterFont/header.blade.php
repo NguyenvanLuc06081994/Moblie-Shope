@@ -20,11 +20,9 @@
                                 <li class="hassubs">
                                     <a href="categories.html">Categories</a>
                                     <ul>
-                                        <li><a href="categories.html">Category</a></li>
-                                        <li><a href="categories.html">Category</a></li>
-                                        <li><a href="categories.html">Category</a></li>
-                                        <li><a href="categories.html">Category</a></li>
-                                        <li><a href="categories.html">Category</a></li>
+                                        @foreach($categories as $category)
+                                        <li><a href="{{route('products.categories',$category->id)}}">{{$category->name}}</a></li>
+                                        @endforeach
                                     </ul>
                                 </li>
                                 <li><a href="#">Accessories</a></li>
@@ -48,7 +46,7 @@
                                             </g>
 										</svg>
 
-                                    <div>Cart <span>({{\Illuminate\Support\Facades\Session::get('Cart') ? \Illuminate\Support\Facades\Session::get('Cart')->totalQuantity : 0}})</span></div>
+                                    <div>Cart <span id="total-quantity">({{\Illuminate\Support\Facades\Session::get('Cart') ? \Illuminate\Support\Facades\Session::get('Cart')->totalQuantity : 0}})</span></div>
 
                                 </a>
                             </div>

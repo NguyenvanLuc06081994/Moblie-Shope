@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31797a6a-86ed-4af9-a217-3640334dc7f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BillStatus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/bill/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/bill/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bill.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bill.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BillController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BillController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/masterFont/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/masterFont/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/menu/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/shop/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/cart.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shop/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shop/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +170,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoLinhTinh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -204,7 +217,17 @@
       <workItem from="1597946079223" duration="682000" />
       <workItem from="1597946774494" duration="9750000" />
       <workItem from="1597971469232" duration="282000" />
-      <workItem from="1597978325537" duration="11092000" />
+      <workItem from="1597978325537" duration="12359000" />
+      <workItem from="1598003271072" duration="707000" />
+      <workItem from="1598063708260" duration="1467000" />
+      <workItem from="1598120355849" duration="258000" />
+      <workItem from="1598123501385" duration="1055000" />
+      <workItem from="1598146105582" duration="2092000" />
+      <workItem from="1598201559879" duration="636000" />
+      <workItem from="1598261001175" duration="232000" />
+      <workItem from="1598262020539" duration="2310000" />
+      <workItem from="1598280318328" duration="21837000" />
+      <workItem from="1598316280950" duration="10718000" />
     </task>
     <servers />
   </component>
@@ -236,18 +259,18 @@
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
     <state x="743" y="451" width="424" height="142" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.0.1920.1046@0.0.1920.1046" timestamp="1597865488187" />
-    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1597946474692">
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1598261229560">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1597946474692" />
-    <state x="670" y="242" width="569" height="559" key="NewPhpClassDialog" timestamp="1597605040458">
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1598261229560" />
+    <state x="670" y="242" width="569" height="559" key="NewPhpClassDialog" timestamp="1598326261446">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="670" y="242" width="569" height="559" key="NewPhpClassDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597605040458" />
-    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1597897687656">
+    <state x="670" y="242" width="569" height="559" key="NewPhpClassDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1598326261446" />
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1598317853695">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1597897687656" />
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1598317853695" />
     <state x="624" y="239" key="run.anything.popup" timestamp="1597825851508">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>

@@ -10,4 +10,9 @@ class Bill extends Model
     {
         return $this->belongsToMany('App\Product','details','bill_id','product_id');
     }
+
+    public function customer()
+    {
+        return $this->belongsTo('App\Customer','customer_id','id');
+    }
 }
